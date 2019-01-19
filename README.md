@@ -4,11 +4,10 @@
 To run server use:
 ```
 cd game
-python2 -m SimpleHTTPServer 8000
+python3 -m http.server  8000
 ```
 
-To start playing(no-training):
+To start playing:
 ```
-cd dinosaur-learning
-python3 main.py
+run Dino_Main.ipynb
 ```
